@@ -5,7 +5,7 @@ This is a personal script that helps me manage the content on my public websites
 - `alexanderlemna.com`
 - `notes.alexanderlemna.com`
 
-All of these websites serve up some basic, static HTML/CSS pages with no JavaScript required. I write all the pages up as Markdown documents, and run this script to convert them to HTML and copy them to my web server's document root. My web server is OpenBSD's `httpd`, with an expected directory structure of:
+All of these websites serve up some basic, static HTML/CSS pages with no JavaScript required. I write all the pages up as Markdown documents, and run this script to convert them to HTML and copy them to my web server's document root. My web servers are OpenBSD's `httpd` (and Linux's `Caddy`, for dev purposes), with an expected directory structure of (roughly):
 
 ```
 /var/www
